@@ -103,25 +103,29 @@ loadTabsProgressively._loadTabsProgressively = function() {
     if (this._pendingTabs.length > 0 && this._pendingTabs[0].getAttribute("pending") > 2)
       return this._pendingTabs.shift();
 
-    var count = 0;
-    for (let i = 0, tab; tab = this.mTabs[i]; i++) {
-      if (tab.hasAttribute("busy"))
-        count++;
+    if (gMaxLoadingTabs > 0) {
+      for (let count = i = 0, tab; tab = this.mTabs[i]; i++) {
+        if (tab.hasAttribute("busy") && ++count >= gMaxLoadingTabs)
+          return null;
+      }
     }
-    if (gMaxLoadingTabs > 0 && count >= gMaxLoadingTabs)
-      return null;
 
     if (this._pendingTabs.length > 0)
       return this._pendingTabs.shift();
 
-    if (gMaxLoadedTabs == 0)
+    let taggedURIs = [];
+    if (gMaxLoadedTabs > -1)
+      taggedURIs = PlacesUtils.tagging.getURIsForTag("norestart");
+
+    if (gMaxLoadedTabs == 0 && taggedURIs.length == 0)
       return null;
 
-    var count = 0;
+    let count = 0;
     for (let tab in (this._tabsToSelect || this._tabsToLoad).apply(this)) {
-      if (tab.hasAttribute("pending"))
+      if (tab.hasAttribute("pending") && (gMaxLoadedTabs == -1 || count < gMaxLoadedTabs ||
+          let (spec = tab.linkedBrowser.currentURI.spec) taggedURIs.some(function(aURI) spec.lastIndexOf(aURI.spec, 0) == 0)))
         return tab;
-      if (gMaxLoadedTabs > 0 && ++count >= gMaxLoadedTabs)
+      if (gMaxLoadedTabs > 0 && ++count >= gMaxLoadedTabs && taggedURIs.length == 0)
         return null;
     }
     return null;
