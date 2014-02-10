@@ -1,0 +1,13 @@
+<!ENTITY prefwindow.title "Inställningar för Load Tabs Progressively">
+<!ENTITY prefwindow.default "Standardinställningar">
+<!ENTITY maxLoadingTabs.label "Högsta antal flikar som får läsas in samtidigt (0: obegränsat):">
+<!ENTITY maxLoadedTabs.label "Högsta antal inlästa flikar (-1: Obegränsat):">
+<!ENTITY maxLoadedTabs.tooltip "Sluta läsa in fler flikar när antalet inlästa flikar i följande sökväg når gränsvärdet">
+<!ENTITY nextToLoad.label "Flikar som läses in först:">
+<!ENTITY nextToLoad.0.label "Flikarna till höger">
+<!ENTITY nextToLoad.1.label "Flikarna till vänster">
+<!ENTITY nextToLoad.2.label "De första flikarna">
+<!ENTITY nextToLoad.3.label "De sista flikarna">
+<!ENTITY nextToLoad.4.label "Relaterade flikar">
+<!ENTITY relatedTabs.tooltip "Flikar som är överordnade, underordnade eller på samma nivå (flikar till höger först)">
+<!ENTITY autoReload.label "Uppdatera återställda flikar automatiskt">

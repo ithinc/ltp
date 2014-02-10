@@ -1,0 +1,13 @@
+<!ENTITY prefwindow.title "Load Tabs Progressively Options">
+<!ENTITY prefwindow.default "Défaut">
+<!ENTITY maxLoadingTabs.label "Maximum d'onglets pouvant être rechargés simultanément (0: pas de limite):">
+<!ENTITY maxLoadedTabs.label "Maximum d'onglets chargés (-1: illimité):">
+<!ENTITY maxLoadedTabs.tooltip "Arrêter le chargement quand le nombre d'onglets chargés atteint la limite">
+<!ENTITY nextToLoad.label "Prochain onglet à charger:">
+<!ENTITY nextToLoad.0.label "Onglet droit">
+<!ENTITY nextToLoad.1.label "Onglet gauche">
+<!ENTITY nextToLoad.2.label "Premier Onglet">
+<!ENTITY nextToLoad.3.label "Dernier Onglet">
+<!ENTITY nextToLoad.4.label "Onglets relatifs à la source">
+<!ENTITY relatedTabs.tooltip "Onglets parents, enfants ou semblables (droit d'abord)">
+<!ENTITY autoReload.label "Rechargement automatique des onglets restaurés">

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<!DOCTYPE prefwindow [
+<!ENTITY % preferencesDTD SYSTEM "chrome://loadTabsProgressively/locale/preferences.dtd">
+%preferencesDTD;
+]>
+
+<prefwindow id="loadTabsProgressively-preferences"
+            title="&prefwindow.title;"
+            buttons="accept,cancel,extra2"
+            buttonlabelextra2="&prefwindow.default;"
+            ondialogextra2="onDefault();"
+            xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <prefpane>
+    <preferences>
+      <preference id="maxLoadingTabs" name="extensions.loadTabsProgressively.maxLoadingTabs" type="int"/>
+      <preference id="maxLoadedTabs" name="extensions.loadTabsProgressively.maxLoadedTabs" type="int"/>
+      <preference id="nextToLoad" name="extensions.loadTabsProgressively.nextToLoad" type="int"/>
+      <preference id="loadInterval" name="extensions.loadTabsProgressively.loadInterval" type="int"/>
+      <preference id="autoReload" name="extensions.loadTabsProgressively.autoReload" type="bool"/>
+    </preferences>
+
+    <groupbox>
+      <hbox align="center">
+        <label value="&maxLoadingTabs.label;" control="c.maxLoadingTabs" flex="1"/>
+        <textbox id="c.maxLoadingTabs" preference="maxLoadingTabs" type="number" size="3" min="0"/>
+      </hbox>
+      <hbox align="center">
+        <label value="&maxLoadedTabs.label;" control="c.maxLoadedTabs" flex="1" tooltiptext="&maxLoadedTabs.tooltip;"/>
+        <textbox id="c.maxLoadedTabs" preference="maxLoadedTabs" type="number" size="3" min="-1"/>
+      </hbox>
+      <hbox align="center">
+        <label value="&nextToLoad.label;" control="c.nextToLoad" flex="1"/>
+        <menulist id="c.nextToLoad" preference="nextToLoad" value="0">
+          <menupopup>
+            <menuitem value="2" label="&nextToLoad.2.label;"/>
+            <menuitem value="1" label="&nextToLoad.1.label;"/>
+            <menuitem value="0" label="&nextToLoad.0.label;"/>
+            <menuitem value="3" label="&nextToLoad.3.label;"/>
+            <menuitem value="4" label="&nextToLoad.4.label;" tooltiptext="&relatedTabs.tooltip;"/>
+          </menupopup>
+        </menulist>
+      </hbox>
+    </groupbox>
+    <groupbox>
+      <checkbox label="&autoReload.label;" preference="autoReload"/>
+    </groupbox>
+  </prefpane>
+
+  <script type="application/x-javascript">
+  <![CDATA[
+    function onDefault() {
+      var preferences = document.getElementsByTagName("preference");
+      for (var i=0; i<preferences.length; i++) {
+        preferences[i].value = preferences[i].defaultValue;
+      }
+    }
+  ]]>
+  </script>
+</prefwindow>

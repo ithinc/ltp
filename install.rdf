@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>loadTabsProgressively@ithinc.cn</em:id>
+    <em:type>2</em:type>
+    <em:name>Load Tabs Progressively</em:name>
+    <em:version>1.6.1</em:version>
+    <em:creator>ithinc</em:creator>
+    <em:contributor></em:contributor>
+    <em:translator>kingsmile (zh-TW)</em:translator>
+    <em:translator>freMea (fr)</em:translator>
+    <em:translator>markh (nl)</em:translator>
+    <em:translator>Пирятинский Виталий (ru)</em:translator>
+    <em:translator>mrfyda (pt-PT)</em:translator>
+    <em:translator>ДакСРБИЈА (sr)</em:translator>
+    <em:translator>erglo, o.roth (ReinekeFux) von BabelZilla.org (de)</em:translator>
+    <em:translator>Leszek(teo)Życzkowski (pl)</em:translator>
+    <em:translator>Mikael Hiort af Ornäs (sv-SE)</em:translator>
+    <em:translator>Eduardo Leon (es-AR)</em:translator>
+    <em:translator>miha (sl)</em:translator>
+    <em:translator>George Malamas (el)</em:translator>
+    <em:translator>k2jp (ja)</em:translator>
+    <em:description>Load tabs one by one.</em:description>
+    <em:homepageURL>https://addons.mozilla.org/addon/91919</em:homepageURL>
+    <em:optionsURL>chrome://loadTabsProgressively/content/preferences.xul</em:optionsURL>
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id> <!-- Firefox -->
+        <em:minVersion>3.6</em:minVersion>
+        <em:maxVersion>8.0a1</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>
+</RDF>

@@ -1,0 +1,13 @@
+<!ENTITY prefwindow.title "Load Tabs Progressively 選項">
+<!ENTITY prefwindow.default "預設">
+<!ENTITY maxLoadingTabs.label "最大同時載入分頁數 (0: 無限制):">
+<!ENTITY maxLoadedTabs.label "最大已載入分頁數 (-1: 無限制):">
+<!ENTITY maxLoadedTabs.tooltip "在以下載入順序內的分頁數達到限制值時，停止繼續載入分頁">
+<!ENTITY nextToLoad.label "下一個載入的分頁:">
+<!ENTITY nextToLoad.0.label "右側分頁">
+<!ENTITY nextToLoad.1.label "左側分頁">
+<!ENTITY nextToLoad.2.label "最左側分頁">
+<!ENTITY nextToLoad.3.label "最右側分頁">
+<!ENTITY nextToLoad.4.label "相關分頁">
+<!ENTITY relatedTabs.tooltip "父、子或兄弟分頁 (右側優先)">
+<!ENTITY autoReload.label "自動重載還原的分頁">

@@ -1,0 +1,13 @@
+<!ENTITY prefwindow.title "Load Tabs Progressively - Einstellungen">
+<!ENTITY prefwindow.default "Standardwerte">
+<!ENTITY maxLoadingTabs.label "Maximale Anzahl gleichzeitig zu ladender Tabs (0: Keine Beschränkung):">
+<!ENTITY maxLoadedTabs.label "Maximale Anzahl geladener Tabs (-1: Keine Beschränkung):">
+<!ENTITY maxLoadedTabs.tooltip "Hört auf weitere Tabs zu laden, wenn die angegebene Anzahl der geladenen Tabs erreicht wird">
+<!ENTITY nextToLoad.label "Diese Tabs zuerst laden:">
+<!ENTITY nextToLoad.0.label "Rechtsseitige Tabs">
+<!ENTITY nextToLoad.1.label "Linksseitige Tabs">
+<!ENTITY nextToLoad.2.label "Erste Tabs">
+<!ENTITY nextToLoad.3.label "Letzte Tabs">
+<!ENTITY nextToLoad.4.label "Verwandte Tabs">
+<!ENTITY relatedTabs.tooltip "Über-, untergeordnete oder gleichgestellte Tabs (von rechts)">
+<!ENTITY autoReload.label "Wiederhergestellte Tabs automatisch neu laden">

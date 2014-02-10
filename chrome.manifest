@@ -1,0 +1,20 @@
+content   loadTabsProgressively                 chrome/content/
+skin      loadTabsProgressively   classic/1.0   chrome/skin/
+
+overlay   chrome://browser/content/browser.xul   chrome://loadTabsProgressively/content/overlay.xul
+
+locale    loadTabsProgressively   en-US         chrome/locale/en-US/
+locale    loadTabsProgressively   zh-CN         chrome/locale/zh-CN/
+locale    loadTabsProgressively   zh-TW         chrome/locale/zh-TW/
+locale    loadTabsProgressively   fr            chrome/locale/fr/
+locale    loadTabsProgressively   nl            chrome/locale/nl/
+locale    loadTabsProgressively   ru            chrome/locale/ru/
+locale    loadTabsProgressively   pt-PT         chrome/locale/pt-PT/
+locale    loadTabsProgressively   sr            chrome/locale/sr/
+locale    loadTabsProgressively   de            chrome/locale/de/
+locale    loadTabsProgressively   pl            chrome/locale/pl/
+locale    loadTabsProgressively   sv-SE         chrome/locale/sv-SE/
+locale    loadTabsProgressively   es-AR         chrome/locale/es-AR/
+locale    loadTabsProgressively   sl            chrome/locale/sl/
+locale    loadTabsProgressively   el            chrome/locale/el/
+locale    loadTabsProgressively   ja            chrome/locale/ja/

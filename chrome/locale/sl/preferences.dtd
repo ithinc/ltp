@@ -1,0 +1,13 @@
+<!ENTITY prefwindow.title "Možnosti razširitve Load Tabs Progressively">
+<!ENTITY prefwindow.default "Ponastavi">
+<!ENTITY maxLoadingTabs.label "Največje število hkratnih nalaganj zavihkov (0: neomejeno):">
+<!ENTITY maxLoadedTabs.label "Največje število naloženih zavihkov (-1: neomejeno):">
+<!ENTITY maxLoadedTabs.tooltip "Ko število naloženih zavihkov doseže mejo ustavi nalaganje zavihkov">
+<!ENTITY nextToLoad.label "Najprej naloži zavihke:">
+<!ENTITY nextToLoad.0.label "Desni zavihki">
+<!ENTITY nextToLoad.1.label "Levi zavihki">
+<!ENTITY nextToLoad.2.label "Prvi zavihki">
+<!ENTITY nextToLoad.3.label "Zadnji zavihki">
+<!ENTITY nextToLoad.4.label "Povezani zavihki">
+<!ENTITY relatedTabs.tooltip "Nadrejeni, podrejeni ali enakovredni zavihki (desni najprej)">
+<!ENTITY autoReload.label "Samodejno ponovno naloži obnovljene zavihke">

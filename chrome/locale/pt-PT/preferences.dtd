@@ -1,0 +1,13 @@
+<!ENTITY prefwindow.title "Opções Load Tabs Progressively">
+<!ENTITY prefwindow.default "Defeito">
+<!ENTITY maxLoadingTabs.label "O número máximo de separadores em carregamento simultâneo (0: sem limite):">
+<!ENTITY maxLoadedTabs.label "Número máximo de separadores carregados (-1: ilimitado):">
+<!ENTITY maxLoadedTabs.tooltip "Parar de carregar mais quando o número de separadores carregados no seguinte caminho atinge o limite">
+<!ENTITY nextToLoad.label "Próximo separador a carregar:">
+<!ENTITY nextToLoad.0.label "Separador direito">
+<!ENTITY nextToLoad.1.label "Separador esquerdo">
+<!ENTITY nextToLoad.2.label "Primeiro separador">
+<!ENTITY nextToLoad.3.label "Último separador">
+<!ENTITY nextToLoad.4.label "Separadores relacionados">
+<!ENTITY relatedTabs.tooltip "Separadores pais, filhos ou irmãos (primeiros à direita)">
+<!ENTITY autoReload.label "Recarregar automaticamente separadores restaurados">

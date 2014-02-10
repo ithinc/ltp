@@ -1,0 +1,13 @@
+<!ENTITY prefwindow.title "Load Tabs Progressively 选项">
+<!ENTITY prefwindow.default "默认">
+<!ENTITY maxLoadingTabs.label "最大同时加载标签数 (0: 无限制):">
+<!ENTITY maxLoadedTabs.label "最大已加载标签数 (-1: 无限制):">
+<!ENTITY maxLoadedTabs.tooltip "以下路径已加载标签数达到限值时，停止加载更多的标签页">
+<!ENTITY nextToLoad.label "优先加载的标签页:">
+<!ENTITY nextToLoad.0.label "右侧标签页">
+<!ENTITY nextToLoad.1.label "左侧标签页">
+<!ENTITY nextToLoad.2.label "最左侧的标签页">
+<!ENTITY nextToLoad.3.label "最右侧的标签页">
+<!ENTITY nextToLoad.4.label "亲属标签页">
+<!ENTITY relatedTabs.tooltip "父、子或兄弟标签页 (右侧优先)">
+<!ENTITY autoReload.label "自动重载恢复的标签页">

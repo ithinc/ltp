@@ -1,0 +1,13 @@
+<!ENTITY prefwindow.title "Load Tabs Progressively - опције">
+<!ENTITY prefwindow.default "Подразумевано">
+<!ENTITY maxLoadingTabs.label "Највећи број језичака који се учитавају истовремено (0=без ограничења):">
+<!ENTITY maxLoadedTabs.label "Највише учитаних језичака (-1 је неограничено):">
+<!ENTITY maxLoadedTabs.tooltip "Заустави даље учитавање када броја учитаних језичака у следећој путањи достигне ограничење">
+<!ENTITY nextToLoad.label "Следећи језичак за учитавање:">
+<!ENTITY nextToLoad.0.label "десни">
+<!ENTITY nextToLoad.1.label "леви">
+<!ENTITY nextToLoad.2.label "први">
+<!ENTITY nextToLoad.3.label "последњи">
+<!ENTITY nextToLoad.4.label "повезане језичке">
+<!ENTITY relatedTabs.tooltip "језичке који су на вишем, нижем или истом нивоу (прво иду здесна)">
+<!ENTITY autoReload.label "Аутоматски поново учитај враћене језичке">

@@ -1,0 +1,13 @@
+<!ENTITY prefwindow.title "Постепенная загрузка вкладок (Load Tabs Progressively) — Настройки">
+<!ENTITY prefwindow.default "Стандартные">
+<!ENTITY maxLoadingTabs.label "Максимальное количество параллельно загружаемых вкладок (0: без ограничений):">
+<!ENTITY maxLoadedTabs.label "Максимальное количество загруженных вкладок (-1: без ограничения):">
+<!ENTITY maxLoadedTabs.tooltip "Прекращает дальнейшую загрузку, когда загружено больше чем указано вкладок.">
+<!ENTITY nextToLoad.label "Следующей загружать вкладку:">
+<!ENTITY nextToLoad.0.label "справа">
+<!ENTITY nextToLoad.1.label "слева">
+<!ENTITY nextToLoad.2.label "первую">
+<!ENTITY nextToLoad.3.label "последнюю">
+<!ENTITY nextToLoad.4.label "родственную">
+<!ENTITY relatedTabs.tooltip "Родительские, дочерние или потомственные вкладки (сначала те что справа)">
+<!ENTITY autoReload.label "Автоматически перезагружать восстанавливаемые вкладки">

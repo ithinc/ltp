@@ -1,0 +1,13 @@
+<!ENTITY prefwindow.title "Load Tabs Progressively Options">
+<!ENTITY prefwindow.default "Default">
+<!ENTITY maxLoadingTabs.label "Maximum number of concurrent loading tabs (0: unlimited):">
+<!ENTITY maxLoadedTabs.label "Maximum number of loaded tabs (-1: unlimited):">
+<!ENTITY maxLoadedTabs.tooltip "Stop loading more when the number of loaded tabs in the following path reaches the limit">
+<!ENTITY nextToLoad.label "Tabs to load first:">
+<!ENTITY nextToLoad.0.label "Right tabs">
+<!ENTITY nextToLoad.1.label "Left tabs">
+<!ENTITY nextToLoad.2.label "First tabs">
+<!ENTITY nextToLoad.3.label "Last tabs">
+<!ENTITY nextToLoad.4.label "Related tabs">
+<!ENTITY relatedTabs.tooltip "Parent, Child or Sibling tabs (right first)">
+<!ENTITY autoReload.label "Auto-reload restored tabs">

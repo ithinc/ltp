@@ -1,0 +1,13 @@
+<!ENTITY prefwindow.title "Opciones de Load Tabs Progressively">
+<!ENTITY prefwindow.default "Por defecto">
+<!ENTITY maxLoadingTabs.label "Número máximo de carga simultánea de pestañas (0: ilimitado):">
+<!ENTITY maxLoadedTabs.label "Número máximo de carga de pestañas (-1: ilimitado):">
+<!ENTITY maxLoadedTabs.tooltip "Detener la sobrecarga cuando el número de pestañas cargadas en la siguiente ruta llega al límite">
+<!ENTITY nextToLoad.label "Pestañas a cargar primero:">
+<!ENTITY nextToLoad.0.label "Pestañas de la derecha">
+<!ENTITY nextToLoad.1.label "Pestañas de la izquierda">
+<!ENTITY nextToLoad.2.label "Primeras pestañas">
+<!ENTITY nextToLoad.3.label "Ultimas pestañas">
+<!ENTITY nextToLoad.4.label "Pestañas relacionadas">
+<!ENTITY relatedTabs.tooltip "Pestañas padre, hijas o hermanas (primera a la derecha)">
+<!ENTITY autoReload.label "Recargar automáticamente las pestañas restauradas">

@@ -1,0 +1,13 @@
+<!ENTITY prefwindow.title "Επιλογές του Load Tabs Progressively">
+<!ENTITY prefwindow.default "Προεπιλογές">
+<!ENTITY maxLoadingTabs.label "Μέγιστος αριθμός καρτελών που φορτώνονται ταυτόχρονα (0: χωρίς όριο):">
+<!ENTITY maxLoadedTabs.label "Μέγιστος αριθμός φορτωμένων καρτελών (-1: χωρίς όριο):">
+<!ENTITY maxLoadedTabs.tooltip "Διακοπή φόρτωσης περισσότερων, όταν ο αριθμός των φορτωμένων καρτελών στην ακόλουθη διαδρομή φτάσει το όριο">
+<!ENTITY nextToLoad.label "Καρτέλες που θα φορτωθούν πρώτες:">
+<!ENTITY nextToLoad.0.label "Δεξιές καρτέλες">
+<!ENTITY nextToLoad.1.label "Αριστερές καρτέλες">
+<!ENTITY nextToLoad.2.label "Πρώτες καρτέλες">
+<!ENTITY nextToLoad.3.label "Τελευταίες καρτέλες">
+<!ENTITY nextToLoad.4.label "Σχετικές καρτέλες">
+<!ENTITY relatedTabs.tooltip "Γονική, τεκνική ή αμφιθαλείς καρτέλες (πρώτα η δεξιά)">
+<!ENTITY autoReload.label "Αυτόματη επαναφόρτωση επαναφερθέντων καρτελών">

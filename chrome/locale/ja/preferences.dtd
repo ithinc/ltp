@@ -1,0 +1,13 @@
+<!ENTITY prefwindow.title "Load Tabs Progressively 設定">
+<!ENTITY prefwindow.default "デフォルト">
+<!ENTITY maxLoadingTabs.label "同時にロードするタブ数の上限（0:無制限）">
+<!ENTITY maxLoadedTabs.label "ロード済みタブ数の上限（-1:無制限）">
+<!ENTITY maxLoadedTabs.tooltip "読み込み済みタブ数が上限に達したら、それ以上の読み込みを停止">
+<!ENTITY nextToLoad.label "次にロードするタブ:">
+<!ENTITY nextToLoad.0.label "右のタブ">
+<!ENTITY nextToLoad.1.label "左のタブ">
+<!ENTITY nextToLoad.2.label "先頭のタブ">
+<!ENTITY nextToLoad.3.label "末尾のタブ">
+<!ENTITY nextToLoad.4.label "関連するタブ">
+<!ENTITY relatedTabs.tooltip "親、子、兄弟タブ（右が先）">
+<!ENTITY autoReload.label "復元したタブを自動でリロード">

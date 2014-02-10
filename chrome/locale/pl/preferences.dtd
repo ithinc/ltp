@@ -1,0 +1,13 @@
+<!ENTITY prefwindow.title "Load Tabs Progressively – ustawienia">
+<!ENTITY prefwindow.default "Domyślne">
+<!ENTITY maxLoadingTabs.label "Maksymalna liczba jednocześnie wczytywanych kart (0 brak limitu):">
+<!ENTITY maxLoadedTabs.label "Maksymalna liczba wczytywanych kart (-1 bez limitu):">
+<!ENTITY maxLoadedTabs.tooltip "Przeglądarka wczytuje maksymalnie tutaj określoną liczbę kart.">
+<!ENTITY nextToLoad.label "Następna karta do wczytania:">
+<!ENTITY nextToLoad.0.label "prawa">
+<!ENTITY nextToLoad.1.label "lewa">
+<!ENTITY nextToLoad.2.label "pierwsza">
+<!ENTITY nextToLoad.3.label "ostatnia">
+<!ENTITY nextToLoad.4.label "Powiązane karty">
+<!ENTITY relatedTabs.tooltip "Macierzyste, potomne lub pokrewne karty (prawa pierwsza)">
+<!ENTITY autoReload.label "Odświeżaj automatycznie odtwarzane karty">

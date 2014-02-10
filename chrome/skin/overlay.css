@@ -1,0 +1,4 @@
+.tabbrowser-tab[pending],
+.alltabs-item[pending] {
+  opacity: 0.5;
+}

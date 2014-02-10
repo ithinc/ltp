@@ -1,0 +1,13 @@
+<!ENTITY prefwindow.title "Load Tabs Progressively-opties">
+<!ENTITY prefwindow.default "Standaard">
+<!ENTITY maxLoadingTabs.label "Maximaal aantal tegelijkertijd ladende tabbladen (0: onbegrensd):">
+<!ENTITY maxLoadedTabs.label "Maximaal aantal geladen tabbladen (-1: onbegrensd):">
+<!ENTITY maxLoadedTabs.tooltip "Laden stoppen wanneer het aantal geladen tabbladen in het volgende pad de grens bereikt">
+<!ENTITY nextToLoad.label "Eerst te laden tabblad:">
+<!ENTITY nextToLoad.0.label "Rechtertabblad">
+<!ENTITY nextToLoad.1.label "Linkertabblad">
+<!ENTITY nextToLoad.2.label "Eerste tabblad">
+<!ENTITY nextToLoad.3.label "Laatste tabblad">
+<!ENTITY nextToLoad.4.label "Gerelateerde tabbladen">
+<!ENTITY relatedTabs.tooltip "Bovenliggende, onderliggende of afgesplitste tabbladen (rechts eerst)">
+<!ENTITY autoReload.label "Herstelde tabbladen automatisch opnieuw laden">
